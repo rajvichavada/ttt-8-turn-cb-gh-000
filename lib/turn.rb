@@ -60,9 +60,7 @@ if valid_move?(board, index)
   move(board, index)
   display_board
 else
-  puts "Please enter 1-9:"
-  input = gets.strip
-  display_board
+turn(board)
 end
 
 end
